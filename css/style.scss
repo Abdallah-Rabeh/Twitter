@@ -59,6 +59,7 @@
         svg{
             width: 10%;
             color: $fristColor;
+            display: inline-block;
         }
         li{
             display: inline-block;
@@ -69,7 +70,7 @@
                 text-decoration: none;
                 transition: .5 ease-in-out;
                 &:hover{
-                    color: $textColor;
+                    color: $fristColor;
                 }
             }
         }
@@ -80,5 +81,6 @@
         width: 60%;
     }
     }
+    
 // ----------------------------------------------/////////
 @import './media'; 

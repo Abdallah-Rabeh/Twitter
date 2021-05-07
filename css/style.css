@@ -48,7 +48,8 @@ nav {
         transform: translate(17px, 10px); }
     nav .link svg {
       width: 10%;
-      color: #fff; }
+      color: #fff;
+      display: inline-block; }
     nav .link li {
       display: inline-block;
       padding: 10px; }
@@ -58,7 +59,7 @@ nav {
         text-decoration: none;
         transition: .5 ease-in-out; }
         nav .link li a:hover {
-          color: #5b7083; }
+          color: #fff; }
   nav .btn {
     margin-top: 25px;
     border-radius: 50px;
