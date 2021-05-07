@@ -1,0 +1,84 @@
+ //!  Color Web Site  //
+  $fristColor: #fff;
+  $LastColor:#1da1f2;
+  $hadeColor:#1da1f2;
+  $textColor:#5b7083;
+  $blackColor:#000;
+  // ? End Color Web Site // 
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing-: border-box;
+    -moz-box-sizing-: border-box;
+    -ms-box-sizing-: border-box;
+    box-sizing: border-box; }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box; }
+    body{
+        margin: 0;padding: 0;
+        background-color: $fristColor;
+        
+    }
+    h1,h2,h3,h4{
+        font-weight: bold;
+    }
+    // ! Navbar Left  Web Site  //
+    nav{
+        position: fixed;
+        width: 25%;
+        height: 100vh;
+        background-color: $fristColor;
+        overflow: hidden;
+        top: 0;
+        text-align: center;
+        border-right: 1px solid $textColor ;
+    .icon{
+        padding: 10px;
+        img{
+            width: 15%;
+            margin: auto;
+            display: block;
+        }
+    }
+    .link{
+        cursor: pointer;
+    .svg{
+     margin-top: 25px;
+    font-weight: bolder;
+    transition: 0.5s all ease-in-out;
+    &:hover{
+        border-radius: 50px;
+        background-color: $LastColor;
+        width: 85%;
+        vertical-align: middle;
+        transform: translate(17px, 10px);
+         }
+        }
+        svg{
+            width: 10%;
+            color: $fristColor;
+        }
+        li{
+            display: inline-block;
+            padding: 10px;
+            a{
+                color: $blackColor;
+                vertical-align: middle;
+                text-decoration: none;
+                transition: .5 ease-in-out;
+                &:hover{
+                    color: $textColor;
+                }
+            }
+        }
+    }
+    .btn{
+        margin-top: 25px; 
+        border-radius: 50px;
+        width: 60%;
+    }
+    }
+// ----------------------------------------------/////////
+@import './media'; 

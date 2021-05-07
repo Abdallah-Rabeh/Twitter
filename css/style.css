@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing-: border-box;
+  -moz-box-sizing-: border-box;
+  -ms-box-sizing-: border-box;
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff; }
+
+h1, h2, h3, h4 {
+  font-weight: bold; }
+
+nav {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  background-color: #fff;
+  overflow: hidden;
+  top: 0;
+  text-align: center;
+  border-right: 1px solid #5b7083; }
+  nav .icon {
+    padding: 10px; }
+    nav .icon img {
+      width: 15%;
+      margin: auto;
+      display: block; }
+  nav .link {
+    cursor: pointer; }
+    nav .link .svg {
+      margin-top: 25px;
+      font-weight: bolder;
+      transition: 0.5s all ease-in-out; }
+      nav .link .svg:hover {
+        border-radius: 50px;
+        background-color: #1da1f2;
+        width: 85%;
+        vertical-align: middle;
+        transform: translate(17px, 10px); }
+    nav .link svg {
+      width: 10%;
+      color: #fff; }
+    nav .link li {
+      display: inline-block;
+      padding: 10px; }
+      nav .link li a {
+        color: #000;
+        vertical-align: middle;
+        text-decoration: none;
+        transition: .5 ease-in-out; }
+        nav .link li a:hover {
+          color: #5b7083; }
+  nav .btn {
+    margin-top: 25px;
+    border-radius: 50px;
+    width: 60%; }
+
+@media (min-width: 350px) and (max-width: 1300px) {
+  nav .icon img {
+    width: 50% !important; }
+  nav .link svg {
+    width: 50%; }
+  nav .link a {
+    display: none !important; }
+  nav .btn {
+    width: 90% !important; } }
+@media (min-width: 371px) and (max-width: 1300px) {
+  nav .icon img {
+    width: 50% !important; }
+  nav .link svg {
+    width: 35%; }
+  nav .link a {
+    display: none !important; }
+  nav .link .btn {
+    width: 90%; } }
+@media (min-width: 577px) and (max-width: 1300px) {
+  .link svg {
+    width: 30%; }
+  .link a {
+    display: none !important; }
+  .link .btn {
+    width: 85%; } }
+@media (min-width: 769px) and (max-width: 1300px) {
+  nav .icon img {
+    width: 30% !important; }
+  nav .link svg {
+    width: 30%; }
+  nav .link a {
+    display: none !important; }
+  nav .link .btn {
+    width: 80%; } }
+@media (min-width: 992px) and (max-width: 1200px) {
+  nav .icon img {
+    width: 25% !important; } }
+@media (min-width: 1181px) and (max-width: 1300px) {
+  nav .icon img {
+    width: 30% !important; } }
+
+/*# sourceMappingURL=style.css.map */
