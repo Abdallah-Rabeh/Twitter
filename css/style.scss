@@ -81,6 +81,35 @@
         width: 60%;
     }
     }
-    
+    .section{
+        position: absolute;
+        left: 30%;
+        li{list-style: none; a{font-weight: bolder;font-size: 22px;color: $blackColor;}}
+        ul{
+            list-style: none;
+            display: flex;
+            padding: 25px;
+            li{
+                vertical-align: middle;
+                list-style: none;
+            }
+        }
+        svg{
+            width: 30%;
+        }
+        .img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            border-radius: 50%;
+            margin-right: auto;
+        }
+        textarea{
+            border: none;
+            resize: none;
+        }
+    }
 // ----------------------------------------------/////////
 @import './media'; 
