@@ -25,65 +25,66 @@
         font-weight: bold;
     }
     // ! Navbar Left  Web Site  //
-    .section{
-          position: relative;  
-            width: 100%;
-        nav{
-            position: fixed;
-            width: 25%;
-            height: 100vh;
-            background-color: $fristColor;
-            overflow: hidden;
-            top: 0;
-            text-align: center;
-            border-right: 1px solid $textColor ;
-        .icon{
-            padding: 10px;
-            img{
-                width: 15%;
-                margin: auto;
-                display: block;
-            }
+    nav{
+        position: fixed;
+        width: 25%;
+        height: 100vh;
+        background-color: $fristColor;
+        overflow: hidden;
+        top: 0;
+        text-align: center;
+        border-right: 1px solid $textColor ;
+    .icon{
+        padding: 10px;
+        img{
+            width: 15%;
+            margin: auto;
+            display: block;
         }
-        .link{
-            cursor: pointer;
-        .svg{
-         margin-top: 25px;
-        font-weight: bolder;
-        transition: 0.5s all ease-in-out;
-        &:hover{
-            border-radius: 50px;
-            background-color: $LastColor;
-            width: 85%;
-            vertical-align: middle;
-            transform: translate(17px, 10px);
-             }
-            }
-            svg{
-                width: 10%;
-                color: $fristColor;
-                display: inline-block;
-            }
-            li{
-                display: inline-block;
-                padding: 10px;
-                a{
-                    color: $blackColor;
-                    vertical-align: middle;
-                    text-decoration: none;
-                    transition: .5 ease-in-out;
-                    &:hover{
-                        color: $fristColor;
-                    }
+    }
+    .link{
+        cursor: pointer;
+    .svg{
+     margin-top: 25px;
+    font-weight: bolder;
+    transition: 0.5s all ease-in-out;
+    &:hover{
+        border-radius: 50px;
+        background-color: $LastColor;
+        width: 85%;
+        vertical-align: middle;
+        transform: translate(17px, 10px);
+         }
+        }
+        svg{
+            width: 10%;
+            color: $fristColor;
+            display: inline-block;
+        }
+        li{
+            display: inline-block;
+            padding: 10px;
+            a{
+                color: $blackColor;
+                vertical-align: middle;
+                text-decoration: none;
+                transition: .5 ease-in-out;
+                &:hover{
+                    color: $fristColor;
                 }
             }
         }
-        .btn{
-            margin-top: 25px; 
-            border-radius: 50px;
-            width: 60%;
-        }
-        }
+    }
+    .btn{
+        margin-top: 25px; 
+        border-radius: 50px;
+        width: 60%;
+    }
+    }
+    .section{
+          position: relative;  
+            width: 100%;
+        
         .div{
             position: fixed;
             top: 0;

@@ -19,54 +19,55 @@ body {
 h1, h2, h3, h4 {
   font-weight: bold; }
 
+nav {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  background-color: #fff;
+  overflow: hidden;
+  top: 0;
+  text-align: center;
+  border-right: 1px solid #5b7083; }
+  nav .icon {
+    padding: 10px; }
+    nav .icon img {
+      width: 15%;
+      margin: auto;
+      display: block; }
+  nav .link {
+    cursor: pointer; }
+    nav .link .svg {
+      margin-top: 25px;
+      font-weight: bolder;
+      transition: 0.5s all ease-in-out; }
+      nav .link .svg:hover {
+        border-radius: 50px;
+        background-color: #1da1f2;
+        width: 85%;
+        vertical-align: middle;
+        transform: translate(17px, 10px); }
+    nav .link svg {
+      width: 10%;
+      color: #fff;
+      display: inline-block; }
+    nav .link li {
+      display: inline-block;
+      padding: 10px; }
+      nav .link li a {
+        color: #000;
+        vertical-align: middle;
+        text-decoration: none;
+        transition: .5 ease-in-out; }
+        nav .link li a:hover {
+          color: #fff; }
+  nav .btn {
+    margin-top: 25px;
+    border-radius: 50px;
+    width: 60%; }
+
 .section {
   position: relative;
   width: 100%; }
-  .section nav {
-    position: fixed;
-    width: 25%;
-    height: 100vh;
-    background-color: #fff;
-    overflow: hidden;
-    top: 0;
-    text-align: center;
-    border-right: 1px solid #5b7083; }
-    .section nav .icon {
-      padding: 10px; }
-      .section nav .icon img {
-        width: 15%;
-        margin: auto;
-        display: block; }
-    .section nav .link {
-      cursor: pointer; }
-      .section nav .link .svg {
-        margin-top: 25px;
-        font-weight: bolder;
-        transition: 0.5s all ease-in-out; }
-        .section nav .link .svg:hover {
-          border-radius: 50px;
-          background-color: #1da1f2;
-          width: 85%;
-          vertical-align: middle;
-          transform: translate(17px, 10px); }
-      .section nav .link svg {
-        width: 10%;
-        color: #fff;
-        display: inline-block; }
-      .section nav .link li {
-        display: inline-block;
-        padding: 10px; }
-        .section nav .link li a {
-          color: #000;
-          vertical-align: middle;
-          text-decoration: none;
-          transition: .5 ease-in-out; }
-          .section nav .link li a:hover {
-            color: #fff; }
-    .section nav .btn {
-      margin-top: 25px;
-      border-radius: 50px;
-      width: 60%; }
   .section .div {
     position: fixed;
     top: 0;
