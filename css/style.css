@@ -86,7 +86,9 @@ nav {
       vertical-align: middle;
       list-style: none; }
   .section svg {
-    width: 30%; }
+    width: 30%;
+    display: block;
+    margin: auto; }
   .section .img {
     display: flex;
     justify-content: center;
