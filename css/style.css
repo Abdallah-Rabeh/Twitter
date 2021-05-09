@@ -42,7 +42,7 @@ nav {
       transition: 0.5s all ease-in-out; }
       nav .link .svg:hover {
         border-radius: 50px;
-        background-color: #1da1f2;
+        background-color: #5b7083;
         width: 85%;
         vertical-align: middle;
         transform: translate(17px, 10px); }
