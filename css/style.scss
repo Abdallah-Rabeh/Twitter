@@ -68,7 +68,7 @@
                 color: $blackColor;
                 vertical-align: middle;
                 text-decoration: none;
-                transition: .5 ease-in-out;
+                transition: .5s ease-in-out;
                 &:hover{
                     color: $fristColor;
                 }
@@ -105,7 +105,12 @@
         svg{
             width: 30%;
             display: block;
-            margin: auto;
+            margin-left: auto;
+            fill: $LastColor;
+            &:hover{
+                fill: $fristColor;
+                font-weight: bolder;
+            }
         }
         .img{
             display: flex;
@@ -119,6 +124,20 @@
         textarea{
             border: none;
             resize: none;
+        }
+        .Icon-TW{
+            ul{
+                flex-direction: column;
+                li{
+                    display: inline-block;
+                }
+            }
+            svg{
+                display: inline-block;
+                margin: 10px;
+                width: 5%;
+
+            }
         }
     }
 // ----------------------------------------------/////////
